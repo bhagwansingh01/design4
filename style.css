@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    height: 7vw;
+   background-color: #F6F6EE;
+   padding: 50px 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#nav h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "gilroy";
+}
+#nav h1 span{
+    font-weight: 600;
+}
+#links{
+    display: flex;
+    gap: 30px;
+}
+#links a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    font-family: "playfair Display";
+}
+#text{
+    position: relative;
+    width: 100%;
+    height: 19vw;
+    background-color:#F6F6EE;
+    text-align: center;
+    padding-top: 70px;
+}
+#text h2{
+    font-family: "playfair Display";
+    font-size: 45px;
+}
+#text p{
+    width: 500px;
+    font-family: "gilroy";
+    margin: 0 auto;
+    padding: 15px 0px;
+    font-weight: 400;
+}
+#text button{
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    font-family: "playfair Display";
+    margin-top: 10px;
+}
+#image{
+    width: 100%;
+    
+}
+#image img{
+    width: 100%;
+}
+
+#btm{
+    margin-top: -10px;
+    display: flex;
+    gap: 10px;
+    padding: 20px 300px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 35vh;
+    background-color:#F6F6EE;   
+}
+#btm #left{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    background-color: #F6F6EE;
+    border-right: 2px solid black;
+    font-family: gilroy;
+}
+#btm #right{
+    font-family: gilroy;
+    display: flex;
+    align-items: top;
+    gap: 25px;
+    width: 50%;
+    height: 100%;
+    background-color: #F6F6EE;
+}
+#left h1{
+    margin-left: 15%;
+    width: 300px;
+}
+#left p{
+    margin-left: 15%;
+    position: absolute;
+    width: 300px;
+    font-weight: 500;
+}
+#left #line{
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: black;
+    right: 40px;
+}
+#right #rleft{
+    
+}
+#right #rright{
+ padding-top: 10px;   
+}
+#right #rright p{
+    position: absolute;
+ padding-top: 10px;   
+    width: 300px;
+    text-align: left;
+    font-weight: 500;
+}
+#right #rright h{
+ padding-top: 10px;   
+    width: 250px;
+    text-align: left;
+}
+
+#rleft #icon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    left: 50%;
+    top: 10%;
+    color: #F6F6EE;
+    border-radius: 50%;
+}
+#rleft #icon i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
